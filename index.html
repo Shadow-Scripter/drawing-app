@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Drawing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="buttonContanier">
+        <button class="button" id="clearButton">Clear Canvas</button>
+        <button class="button" id="saveButton">Save Drawing</button>
+    </div>
+    
+    <canvas id="drawCanvas" width="800" height="500"></canvas>
+    <div id="controls">
+        <input type="color" id="colorPicker">
+        <input type="range" id="brushSize" min="1" max="50" value="5">
+
+        <input type="color" id="bgColorPicker">
+        <button id="applyBgColorButton">Apply Background Color</button>
+        <input class="inputCanvas" type="number" id="canvasWidth" placeholder="Width">
+        <input class="inputCanvas" type="number" id="canvasHeight" placeholder="Height">
+        <button id="applySizeButton">Apply Canvas Size</button>
+        <button class="shapeButton" id="drawRectButton">Draw Rectangle</button>
+        <button class="shapeButton" id="drawCircleButton">Draw Circle</button>
+        <button class="shapeButton" id="drawLineButton">Draw Line</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

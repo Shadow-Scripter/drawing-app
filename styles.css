@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+#controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#controls input[type="range"],
+#controls input[type="number"] {
+    margin: 0 10px;
+}
+
+#colorPicker {
+    margin: 10px;
+    border: none;
+}
+
+#brushSize {
+    margin: 10px;
+    border: none;
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,
+    #000000 0%, #000000 100%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#bgColorPicker {
+    margin: 10px;
+    border: none;
+}
+.button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #000000;
+    transition: 0.2s;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+#applyBgColorButton {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: hsl(150, 66%, 49%);
+    transition: 0.2s;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.inputCanvas{
+    margin: 10px;
+    border: none;
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to right,
+    #000000 0%, #000000 100%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    padding: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;   
+}
+#applySizeButton {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: hsl(200, 80%, 54%);
+    transition: 0.2s;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.shapeButton {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: hsl(0, 72%, 30%);
+    transition: 0.2s;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+}
